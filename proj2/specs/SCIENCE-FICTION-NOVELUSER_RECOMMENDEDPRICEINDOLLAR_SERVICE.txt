@@ -1,0 +1,15 @@
+ spec SCIENCE-FICTION-NOVELUSER_RECOMMENDEDPRICEINDOLLAR_SERVICE
+ Vocabulary:
+    books,
+    concept,
+    core-plus-office
+ Inputs:
+    books:Science-Fiction-Novel _SCIENCE-FICTION-NOVEL,
+    books:User _USER
+ Outputs:
+    concept:RecommendedPriceInDollar _RECOMMENDEDPRICEINDOLLAR
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _RECOMMENDEDPRICEINDOLLAR belongs priceIsDeterminatedBy value _SCIENCE-FICTION-NOVEL,
+    _RECOMMENDEDPRICEINDOLLAR belongs priceIsDeterminatedBy value _USER

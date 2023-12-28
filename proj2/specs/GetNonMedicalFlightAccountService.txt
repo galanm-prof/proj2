@@ -1,0 +1,22 @@
+ spec GetNonMedicalFlightAccountService
+ Vocabulary:
+    NonMedicalFlightCompanyOntology,
+    Mid-level-ontology,
+    ontosem,
+    core-plus-office
+ Inputs:
+    NonMedicalFlightCompanyOntology:AccountPassword GetNonMedicalFlightAccount_CustomerDesiredPassword,
+    NonMedicalFlightCompanyOntology:FlightNumber BookNonMedicalFlight_FlightNumber,
+    NonMedicalFlightCompanyOntology:DateTime GetNonMedicalFlightAccount_CustomerCreditCardExpDate,
+    NonMedicalFlightCompanyOntology:Address GetNonMedicalFlightAccount_CustomerAddress,
+    NonMedicalFlightCompanyOntology:Account BookNonMedicalFlight_Account,
+    NonMedicalFlightCompanyOntology:AccountName GetNonMedicalFlightAccount_CustomerDesiredAccountName,
+    NonMedicalFlightCompanyOntology:PersonName GetNonMedicalFlightAccount_CustomerName,
+    NonMedicalFlightCompanyOntology:CreditCardNumber GetNonMedicalFlightAccount_CustomerCreditCardNumber
+ Outputs:
+    NonMedicalFlightCompanyOntology:Account GetNonMedicalFlightAccount_Account
+ Precondition :
+    GetNonMedicalFlightAccount_CustomerCreditCardNumber belongs Accepted
+ Effect:
+    GetNonMedicalFlightAccount_Account belongs accountHolder some (Person_hasName value GetNonMedicalFlightAccount_CustomerName),
+    GetNonMedicalFlightAccount_Account belongs Create

@@ -1,0 +1,12 @@
+ spec agent_movement
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:Agent Agent,
+    spatial_ontology:SpatialZone CurrentPosition
+ Outputs:
+    spatial_ontology:SpatialZone FuturePosition
+ Precondition :
+    Agent belongs isLocatedIn value CurrentPosition
+ Effect:
+    Agent belongs isLocatedIn value FuturePosition

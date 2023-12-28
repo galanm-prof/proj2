@@ -1,0 +1,28 @@
+ spec ADDRESS_PLACE_SERVICE4
+ Vocabulary:
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    geographydataset:PostalCode _ZIPCODE,
+    protonu:Address _ADDRESS,
+    protonu:State _STATE,
+    protonu:UrbanDistrict _DISTRICT,
+    protonu:County _COUNTY
+ Outputs:
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE,
+    protonu:PopulatedPlace _PLACE
+ Precondition :
+    _ADDRESS belongs identifiesLocation some {_CITY,_COUNTY,_STATE,_COUNTRY},
+    _CITY belongs locatedIn value _COUNTY,
+    _COUNTY belongs locatedIn value _STATE,
+    _DISTRICT belongs locatedIn value _COUNTY,
+    _STATE belongs locatedIn value _COUNTRY
+ Effect:
+    _PLACE belongs locatedIn value _LATITUDE,
+    _PLACE belongs locatedIn value _LONGITUDE,
+    _CITY belongs locatedIn value _LATITUDE,
+    _CITY belongs locatedIn value _LONGITUDE,
+    _ADDRESS belongs locatedIn value _LATITUDE,
+    _ADDRESS belongs locatedIn value _LONGITUDE

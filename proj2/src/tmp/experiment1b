@@ -1,0 +1,2068 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=60854:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Investigacion\prototypes\proj2\out\production\proj2;C:\antlr\antlr-4.11.1-complete.jar;C:\hermit\org.semanticweb.HermiT.jar;C:\hermit\HermiT.jar experiments.experiment1b
+
+Repository: 22
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/50
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/39/41/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/40/40/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/40/40/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/40/40/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/40/40/54
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 67.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/43/37/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/51
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 63.74999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/49
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/38/42/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/36/44/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/36/44/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/36/44/51
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 63.74999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+Mean percentage of specifications which have been visited in repository 22:  62.38636363636363%
+
+Repository: 12
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/48
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/37/43/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/37/43/52
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 65.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/40/40/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/38/42/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/38/42/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/38/42/52
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_SPORTSHOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 65.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+Mean percentage of specifications which have been visited in repository 12:  60.22727272727273%
+
+Repository: 23
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/46
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/39/41/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/47
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/46
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+Mean percentage of specifications which have been visited in repository 23:  56.93181818181818%
+
+Repository: 13
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/50
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/39/41/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/21
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/50
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/48
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+Mean percentage of specifications which have been visited in repository 13:  59.54545454545455%
+
+Repository: 24
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/38/42/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/36/44/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/36/44/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/36/44/50
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1]
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/49
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+Mean percentage of specifications which have been visited in repository 24:  60.68181818181818%
+
+Repository: 14
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/36/44/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/36/44/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/36/44/50
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/39/41/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/45/35/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/43/37/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/40/40/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/40/40/52
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 65.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/49
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+Mean percentage of specifications which have been visited in repository 14:  61.70454545454545%
+
+Repository: 25
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/43/37/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/40/40/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/40/40/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/40/40/51
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_SPORTSHOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 63.74999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/48
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+Mean percentage of specifications which have been visited in repository 25:  59.54545454545455%
+
+Repository: 15
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/39/41/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/37/43/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/37/43/53
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 66.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/39/41/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/50
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_SPORTSHOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+Mean percentage of specifications which have been visited in repository 15:  61.81818181818182%
+
+Repository: 26
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/50
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/50
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/49
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+Mean percentage of specifications which have been visited in repository 26:  60.68181818181818%
+
+Repository: 16
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/51
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 63.74999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/49
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/46
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+Mean percentage of specifications which have been visited in repository 16:  58.4090909090909%
+
+Repository: 27
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/47
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/45
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/46
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/22
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/45
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/45
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/45
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/46
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/45
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/21
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/21
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/46
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/20
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/45
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+Mean percentage of specifications which have been visited in repository 27:  57.04545454545455%
+
+Repository: 17
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/45
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/17
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/17
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/17
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/43
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+Mean percentage of specifications which have been visited in repository 17:  54.20454545454545%
+
+Repository: 28
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/46
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/47
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/46
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/45
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+Mean percentage of specifications which have been visited in repository 28:  57.15909090909091%
+
+Repository: 18
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/47
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/49
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/48
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+Mean percentage of specifications which have been visited in repository 18:  59.20454545454545%
+
+Repository: 29
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/51
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 63.74999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/40/40/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/36/44/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/47
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/32/48/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+Mean percentage of specifications which have been visited in repository 29:  59.65909090909091%
+
+Repository: 19
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/46
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/45
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/43
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/15
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/15
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/15
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/42
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+Mean percentage of specifications which have been visited in repository 19:  53.40909090909091%
+
+Repository: 30
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/31/49/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/48
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/31/49/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/47
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/37/43/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/37/43/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/32/48/21
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/32/48/49
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_SPORTSHOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/32/48/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/30/50/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/30/50/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/30/50/48
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 60.0%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+Mean percentage of specifications which have been visited in repository 30:  58.40909090909091%
+
+Repository: 20
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/36/44/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/34/46/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/34/46/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/34/46/50
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 62.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/42/38/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/40/40/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/35/45/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/35/45/51
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 63.74999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/33/47/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/34/46/16
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/33/47/16
+Direct discovery (Total/Potential/Discarded/Visited) 80/33/47/16
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/33/47/49
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 61.25000000000001%
+Mean percentage of specifications which have been visited in repository 20:  61.59090909090909%
+
+Repository: 31
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/29/51/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/29/51/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/29/51/47
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/30/50/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/46
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/35/45/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/35/45/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/31/49/21
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/31/49/47
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 58.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/45
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/45
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/45
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/28/52/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/28/52/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/28/52/46
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/26/54/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/45
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/29/51/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/27/53/20
+Direct discovery (Total/Potential/Discarded/Visited) 80/27/53/20
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/27/53/46
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 57.49999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/28/52/19
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/26/54/19
+Direct discovery (Total/Potential/Discarded/Visited) 80/26/54/19
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/26/54/45
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 56.25%
+Mean percentage of specifications which have been visited in repository 31:  57.15909090909091%
+
+Repository: 21
+---------------
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/23/57/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/42
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/24/56/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/24/56/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/24/56/42
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE]
+Percentage of specifications which have been visited: 52.5%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/23/57/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/23/57/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/23/57/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/27/53/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/25/55/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/25/55/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/25/55/43
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 53.75%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/23/57/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/23/57/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+
+Prunning wrt information space (Total/Potential/Discarded/Visited) 80/25/55/18
+
+Prunning wrt state space (Total/Potential/Discarded/Visited) 80/23/57/18
+Direct discovery (Total/Potential/Discarded/Visited) 80/23/57/18
+Remaining specification discovery (Total/Potential/Discarded/Visited) 80/23/57/41
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 51.24999999999999%
+Mean percentage of specifications which have been visited in repository 21:  51.70454545454545%
+
+Amount of time (in seconds): 22.491
+
+Mean percentage of specifications which have been visited: 58.57386363636364%
+Experiment: true
+
+Process finished with exit code 0

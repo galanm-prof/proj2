@@ -1,0 +1,23 @@
+ spec flip_down_slider
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:MesseModul MesseModul
+ Outputs:
+    spatial_ontology:SpatialZone CarriageSpatialZone,
+    messemodul:Slider Slider,
+    messemodul:UltraSoundSensor UltraSoundSensor,
+    messemodul:ContactSensor ContactSensor,
+    messemodul:Cup Cup,
+    messemodul:Carriage Carriage
+ Precondition :
+    ContactSensor belongs detectsCarriage value Carriage,
+    MesseModul belongs consistsOf value ContactSensor,
+    Cup belongs isLocatedIn value CarriageSpatialZone,
+    MesseModul belongs consistsOf value UltraSoundSensor,
+    UltraSoundSensor belongs detectsCup value Cup,
+    Carriage belongs hasCargoArea value CarriageSpatialZone,
+    MesseModul belongs consistsOf value Slider,
+    Slider belongs Up
+ Effect:
+    Slider belongs Down

@@ -1,0 +1,13 @@
+ spec PERSONMONOGRAPH__SERVICE
+ Vocabulary:
+    books,
+    core-plus-office,
+    ShoppingCart
+ Inputs:
+    books:Person _PERSON,
+    books:Monograph _MONOGRAPH
+ Outputs:
+ Precondition :
+    _PERSON belongs Authorized
+ Effect:
+    _MONOGRAPH belongs ShoppingCartRequestItems

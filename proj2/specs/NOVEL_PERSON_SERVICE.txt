@@ -1,0 +1,10 @@
+ spec NOVEL_PERSON_SERVICE
+ Vocabulary:
+    books
+ Inputs:
+    books:Novel _NOVEL
+ Outputs:
+    books:Person _PERSON
+ Precondition :
+ Effect:
+    _NOVEL belongs isReserved value _PERSON

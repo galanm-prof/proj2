@@ -1,0 +1,32 @@
+ spec MAP_ADDRESS_SERVICE
+ Vocabulary:
+    Units,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    geographydataset:Code _LICENSEKEY,
+    protonu:Address _ADDRESS,
+    protonu:State _STATE
+ Outputs:
+    geographydataset:Map _VICINITY-MAP,
+    Units:Pixel _MAPSIZE,
+    geographydataset:Map _THUMBNAIL-MAP,
+    protont:longitude _LONGITUDE,
+    protonu:Address _MATCHED-ADDRESS,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized,
+    _STATE belongs locatedIn value _COUNTRY,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _VICINITY-MAP belongs representsInformation value _CITY,
+    _THUMBNAIL-MAP belongs representsInformation value _LATITUDE,
+    _THUMBNAIL-MAP belongs representsInformation value _LONGITUDE,
+    _CITY belongs locatedIn value _LATITUDE,
+    _CITY belongs locatedIn value _LONGITUDE,
+    _MATCHED-ADDRESS belongs locatedIn value _LATITUDE,
+    _MATCHED-ADDRESS belongs locatedIn value _LONGITUDE,
+    _ADDRESS belongs locatedIn value _LATITUDE,
+    _ADDRESS belongs locatedIn value _LONGITUDE

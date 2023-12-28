@@ -1,0 +1,27 @@
+ spec CHECK_ADDRESS_SERVICE
+ Vocabulary:
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    geographydataset:Code _LICENSEKEY,
+    protonu:Address _ADDRESS,
+    protonu:State _STATE
+ Outputs:
+    geographydataset:PhoneCode _AREA-PHONECODE,
+    geographydataset:PostalCode _POSTALCODE,
+    protonu:TimeZone _TIMEZONE,
+    protont:longitude _LONGITUDE,
+    protonu:County _COUNTY,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized,
+    _STATE belongs locatedIn value _COUNTRY,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _CITY belongs hasPhoneCode value _AREA-PHONECODE,
+    _ADDRESS belongs identifiesLocation some (hasLatitude value _LATITUDE and hasLongitude value _LONGITUDE),
+    _CITY belongs locatedIn value _COUNTY,
+    _POSTALCODE belongs identifiesObject value _CITY,
+    hasLatitude value _LATITUDE and hasLongitude value _LONGITUDE subclassOf belongsToTimeZone value _TIMEZONE

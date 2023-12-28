@@ -1,0 +1,16 @@
+ spec TIME-MEASURECOUNTRYCITY_HOTEL_SERVICE
+ Vocabulary:
+    portal,
+    travel,
+    protont
+ Inputs:
+    travel:City _CITY,
+    portal:Country _COUNTRY,
+    support:Time-Measure _TIME-MEASURE
+ Outputs:
+    travel:Hotel _HOTEL
+ Precondition :
+    _CITY belongs locatedIn value _COUNTRY
+ Effect:
+    _HOTEL belongs isAvailable value _TIME-MEASURE,
+    _CITY belongs hasAccommodation value _HOTEL

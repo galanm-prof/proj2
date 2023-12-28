@@ -1,0 +1,22 @@
+ req GetMedicalTransportAccountRequest
+ Vocabulary:
+    MedicalTransportCompanyOntology,
+    Mid-level-ontology,
+    ontosem,
+    core-plus-office
+ Inputs:
+    MedicalTransportCompanyOntology:AccountPassword GetMedicalTransportAccount_CustomerDesiredPassword,
+    MedicalTransportCompanyOntology:Address GetMedicalTransportAccount_CustomerAddress,
+    MedicalTransportCompanyOntology:AccountName GetMedicalTransportAccount_CustomerDesiredAccountName,
+    MedicalTransportCompanyOntology:PersonName GetMedicalTransportAccount_CustomerName,
+    MedicalTransportCompanyOntology:CreditCardNumber GetMedicalTransportAccount_CustomerCreditCardNumber,
+    MedicalTransportCompanyOntology:DateTime GetMedicalTransportAccount_CustomerCreditCardExpDate,
+    MedicalTransportCompanyOntology:Diagnosis ProvideMedicalTransportInformation_Diagnosis,
+    MedicalTransportCompanyOntology:DateTime ProvideMedicalTransportInformation_DesiredDepartureDateTime
+ Outputs:
+    MedicalTransportCompanyOntology:Account GetMedicalTransportAccount_Account
+ Precondition :
+    GetMedicalTransportAccount_CustomerCreditCardNumber belongs Accepted
+ Effect:
+    GetMedicalTransportAccount_Account belongs accountHolder some (Person_hasName value GetMedicalTransportAccount_CustomerName),
+    GetMedicalTransportAccount_Account belongs Create

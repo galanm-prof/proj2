@@ -1,0 +1,20 @@
+ spec ZIPCODE_INFO_WORLDWIDE_SERVICE
+ Vocabulary:
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:ZipCode _ZIPCODE,
+    geographydataset:UniqueIdentifier _USERID
+ Outputs:
+    protonu:City _CITY,
+    geographydataset:daylightSavingTime _DAYLIGHTSAVINGTIME,
+    protonu:TimeZone _TIMEZONE,
+    protonu:Country _COUNTRY,
+    geographydataset:GeographicArea _GEOGRAPHIC-AREA
+ Precondition :
+    _USERID belongs Authorized
+ Effect:
+    _GEOGRAPHIC-AREA belongs belongsToTimeZone value _TIMEZONE,
+    _CITY belongs locatedIn value _GEOGRAPHIC-AREA,
+    _ZIPCODE belongs identifiesObject value _COUNTRY,
+    _ZIPCODE belongs identifiesObject value _CITY

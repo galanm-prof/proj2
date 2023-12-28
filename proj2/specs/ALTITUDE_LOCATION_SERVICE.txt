@@ -1,0 +1,18 @@
+ spec ALTITUDE_LOCATION_SERVICE
+ Vocabulary:
+    protont,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protont:longitude _LONGITUDE,
+    geographydataset:UniqueIdentifier _USERID,
+    protont:latitude _LATITUDE
+ Outputs:
+    protont:Location _LOCATION,
+    geographydataset:AltitudeAboveSeaLevel _ALTITUDE
+ Precondition :
+    _USERID belongs Authorized
+ Effect:
+    _LOCATION belongs hasAltitude value _ALTITUDE,
+    _LOCATION belongs identifiesLocation value _LONGITUDE,
+    _LOCATION belongs identifiesLocation value _LATITUDE

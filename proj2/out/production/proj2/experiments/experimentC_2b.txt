@@ -1,0 +1,19 @@
+REPOSITORIES: 20; //number of repositories in the experiment
+
+REQUESTS: CALCULATE_SUNRISE_REQUEST,
+          CHECK_ADDRESS_REQUEST,
+          CITY_HOTEL_REQUEST,
+          CITYCITY_MAP_REQUEST,
+          CITYCOUNTRY_ACCOMMODATION_REQUEST,
+          CREDITACCOUNTBOOKPERSON__REQUEST,
+          GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST,
+          GetMedicalTransportAccountRequest,
+          open_door_request,
+          ProvideMedicalFlightInformationRequest,
+          TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST ; //requests (1 o more)
+
+REPOSITORY: 80, //number of specifications per repository
+            meanRelativeSizeInformationSpaceStrongSetsMax(0.021) and
+                meanRelativeSizeInformationSpaceWeakSetsMax(0.025); // predicate for selecting or generating (if needed)
+                                        // the repository.
+SEARCHING: efficient-1-level; //types of serching

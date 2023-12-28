@@ -1,0 +1,15 @@
+ spec GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_MAP_SERVICE
+ Vocabulary:
+    portal,
+    Mid-level-ontology,
+    SUMO
+ Inputs:
+    portal:Geographical-Region _GEOGRAPHICAL-REGION1,
+    portal:Geographical-Region _GEOGRAPHICAL-REGION2
+ Outputs:
+    Mid-level-ontology:Map _MAP
+ Precondition :
+    _GEOGRAPHICAL-REGION1 belongs not(equal value _GEOGRAPHICAL-REGION2)
+ Effect:
+    _MAP belongs represents some (roadwayBetween value _GEOGRAPHICAL-REGION2),
+    _MAP belongs represents some (roadwayBetween value _GEOGRAPHICAL-REGION1)

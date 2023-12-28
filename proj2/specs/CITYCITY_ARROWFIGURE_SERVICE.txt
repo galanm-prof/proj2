@@ -1,0 +1,13 @@
+ spec CITYCITY_ARROWFIGURE_SERVICE
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    geographydataset:City _CITY2,
+    geographydataset:City _CITY1
+ Outputs:
+    geographydataset:RouteMap _ROUTEMAP
+ Precondition :
+    _CITY1 belongs not(equal value _CITY2)
+ Effect:
+    _ROUTEMAP belongs representsInformation some (routeBegins value _CITY1 and routeEnds value _CITY2)

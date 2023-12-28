@@ -1,0 +1,15 @@
+ spec greenLight_to_on
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:MesseModul MesseModul
+ Outputs:
+    messemodul:GreenLamp GreenLamp,
+    messemodul:Magazine Magazine
+ Precondition :
+    MesseModul belongs consistsOf value Magazine,
+    MesseModul belongs consistsOf value GreenLamp,
+    GreenLamp belongs Off,
+    Magazine belongs Full
+ Effect:
+    GreenLamp belongs On

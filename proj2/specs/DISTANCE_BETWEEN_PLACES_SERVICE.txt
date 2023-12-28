@@ -1,0 +1,16 @@
+ spec DISTANCE_BETWEEN_PLACES_SERVICE
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    geographydataset:USStateCode _USSTATECODE1,
+    geographydataset:USStateCode _USSTATECODE2,
+    protonu:City _USCITY2,
+    protonu:City _USCITY1
+ Outputs:
+    geographydataset:GeographicDistance _DISTANCE
+ Precondition :
+    _USCITY1 belongs not(equal value _USCITY2)
+ Effect:
+    _DISTANCE belongs hasLocation value _USCITY2,
+    _DISTANCE belongs hasLocation value _USCITY1

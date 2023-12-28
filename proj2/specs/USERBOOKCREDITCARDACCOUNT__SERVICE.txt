@@ -1,0 +1,18 @@
+ spec USERBOOKCREDITCARDACCOUNT__SERVICE
+ Vocabulary:
+    Mid-level-ontology,
+    books,
+    ontosem,
+    core-plus-office,
+    ShoppingCart
+ Inputs:
+    books:Book _BOOK,
+    Mid-level-ontology:CreditCardAccount _CREDITCARDACCOUNT,
+    books:User _USER
+ Outputs:
+ Precondition :
+    _CREDITCARDACCOUNT belongs accountHolder value _USER,
+    _USER belongs Authorized,
+    _CREDITCARDACCOUNT belongs Accepted
+ Effect:
+    _BOOK belongs ShoppingCartRequestItems

@@ -1,0 +1,10 @@
+ req open_door_request
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:Door Door
+ Outputs:
+ Precondition :
+    Door belongs Closed
+ Effect:
+    Door belongs Open

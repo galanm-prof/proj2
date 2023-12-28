@@ -1,0 +1,22 @@
+ spec LOCATION_ZIPCODE_SERVICE
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:ZipCode _ZIPCODE,
+    geographydataset:UniqueIdentifier _USERID
+ Outputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _USERID belongs Authorized
+ Effect:
+    _CITY belongs locatedIn value _LATITUDE,
+    _CITY belongs locatedIn value _LONGITUDE,
+    _CITY belongs locatedIn value _COUNTRY,
+    _COUNTRY belongs hasNumberCode value _ZIPCODE,
+    _CITY belongs hasNumberCode value _ZIPCODE

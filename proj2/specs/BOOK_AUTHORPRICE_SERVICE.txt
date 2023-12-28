@@ -1,0 +1,14 @@
+ spec BOOK_AUTHORPRICE_SERVICE
+ Vocabulary:
+    books,
+    concept
+ Inputs:
+    books:Book _BOOK
+ Outputs:
+    concept:Price _PRICE,
+    books:Author _AUTHOR
+ Precondition :
+    _BOOK belongs not(Novel)
+ Effect:
+    _BOOK belongs hasPrice value _PRICE,
+    _BOOK belongs writtenBy value _AUTHOR

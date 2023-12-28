@@ -1,0 +1,13 @@
+ spec flip_slider
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:Slider Slider,
+    messemodul:BluePill BluePill
+ Outputs:
+    spatial_ontology:SpatialZone Area
+ Precondition :
+    Slider belongs hasCargoArea value Area,
+    BluePill belongs isLocatedIn value Area
+ Effect:
+    BluePill belongs released value Area

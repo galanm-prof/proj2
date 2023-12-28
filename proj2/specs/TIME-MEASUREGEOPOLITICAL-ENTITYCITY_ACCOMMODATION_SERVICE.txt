@@ -1,0 +1,16 @@
+ spec TIME-MEASUREGEOPOLITICAL-ENTITYCITY_ACCOMMODATION_SERVICE
+ Vocabulary:
+    travel,
+    portal,
+    protont
+ Inputs:
+    travel:City _CITY,
+    support:Time-Measure _TIME-MEASURE,
+    portal:Geopolitical-Entity _GEOPOLITICAL-ENTITY
+ Outputs:
+    travel:Accommodation _ACCOMMODATION
+ Precondition :
+    _CITY belongs locatedIn value _GEOPOLITICAL-ENTITY
+ Effect:
+    _ACCOMMODATION belongs isAvailable value _TIME-MEASURE,
+    _CITY belongs hasAccommodation value _ACCOMMODATION

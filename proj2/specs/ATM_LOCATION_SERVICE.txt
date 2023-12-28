@@ -1,0 +1,19 @@
+ spec ATM_LOCATION_SERVICE
+ Vocabulary:
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protonu:City _CITY,
+    geographydataset:Code _LICENSEKEY,
+    protonu:State _STATE
+ Outputs:
+    geographydataset:ATM _ATM,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _ATM belongs locatedIn value _CITY,
+    _ATM belongs locatedIn value _LATITUDE,
+    _ATM belongs locatedIn value _LONGITUDE

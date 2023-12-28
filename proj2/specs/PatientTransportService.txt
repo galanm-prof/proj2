@@ -1,0 +1,16 @@
+ spec PatientTransportService
+ Vocabulary:
+    HospitalPhysicianOntology,
+    ontosem
+ Inputs:
+    HospitalPhysicianOntology:AccountPassword SeePatientMedicalRecords_PhysicianPassword,
+    HospitalPhysicianOntology:Diagnosis PatientTransport_Diagnosis,
+    HospitalPhysicianOntology:Hospital PatientTransport_ChosenHospital,
+    HospitalPhysicianOntology:GpsPosition PatientTransport_PatientGpsPosition
+ Outputs:
+    HospitalPhysicianOntology:Acknowledgement PatientTransport_Acknowledgement,
+    HospitalPhysicianOntology:MedicalRecords SeePatientMedicalRecords_PatientMedicalRecords
+ Precondition :
+    SeePatientMedicalRecords_PhysicianPassword belongs Accepted
+ Effect:
+    PatientTransport_Acknowledgement belongs isForTransportingPatientToHospital value PatientTransport_ChosenHospital

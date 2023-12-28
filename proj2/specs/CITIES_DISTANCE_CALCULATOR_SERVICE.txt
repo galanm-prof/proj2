@@ -1,0 +1,31 @@
+ spec CITIES_DISTANCE_CALCULATOR_SERVICE
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    protonu:State _STATE2,
+    protonu:Country _COUNTRY1,
+    protonu:Country _COUNTRY2,
+    protonu:City _CITY2,
+    protonu:City _CITY1,
+    protonu:State _STATE1
+ Outputs:
+    geographydataset:GeographicDistance _DISTANCE
+ Precondition :
+    _STATE2 belongs locatedIn value _COUNTRY2,
+    _CITY1 belongs not(equal value _CITY2),
+    _CITY2 belongs locatedIn value _STATE2,
+    _STATE1 belongs locatedIn value _COUNTRY1,
+    _CITY1 belongs locatedIn value _STATE1
+ Effect:
+    _DISTANCE belongs hasLocation value _CITY2,
+    _DISTANCE belongs hasLocation value _CITY1
+ Precondition :
+    _STATE2 belongs locatedIn value _COUNTRY2,
+    _CITY2 belongs locatedIn value _STATE2,
+    _COUNTRY1 belongs not(equal value _COUNTRY2),
+    _STATE1 belongs locatedIn value _COUNTRY1,
+    _CITY1 belongs locatedIn value _STATE1
+ Effect:
+    _DISTANCE belongs hasLocation value _CITY2,
+    _DISTANCE belongs hasLocation value _CITY1

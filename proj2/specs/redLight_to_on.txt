@@ -1,0 +1,15 @@
+ spec redLight_to_on
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:MesseModul MesseModul
+ Outputs:
+    messemodul:RedLamp RedLamp,
+    messemodul:Magazine Magazine
+ Precondition :
+    MesseModul belongs consistsOf value Magazine,
+    RedLamp belongs Off,
+    Magazine belongs Empty,
+    MesseModul belongs consistsOf value RedLamp
+ Effect:
+    RedLamp belongs On

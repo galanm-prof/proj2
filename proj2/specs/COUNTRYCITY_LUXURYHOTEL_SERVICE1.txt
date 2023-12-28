@@ -1,0 +1,14 @@
+ spec COUNTRYCITY_LUXURYHOTEL_SERVICE1
+ Vocabulary:
+    portal,
+    travel,
+    protont
+ Inputs:
+    travel:City _CITY,
+    portal:Country _COUNTRY
+ Outputs:
+    travel:LuxuryHotel _LUXURYHOTEL
+ Precondition :
+    _CITY belongs locatedIn value _COUNTRY
+ Effect:
+    {_CITY} equivalentTo (hasAccommodation value _LUXURYHOTEL)

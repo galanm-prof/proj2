@@ -1,0 +1,26 @@
+ spec CALCULATE_SUNRISE_SUNSET_SERVICE
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protonu:TimeZone _TIMEZONE,
+    geographydataset:Code _LICENSEKEY,
+    protonu:Date _DATE,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Outputs:
+    geographydataset:Sunset _SUNSET,
+    geographydataset:Sunrise _SUNRISE
+ Precondition :
+    _LATITUDE belongs belongsToTimeZone value _TIMEZONE,
+    _LONGITUDE belongs belongsToTimeZone value _TIMEZONE,
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _SUNSET belongs sunriseDeterminatedBy value _DATE,
+    _SUNSET belongs sunriseDeterminatedBy value _LATITUDE,
+    _SUNSET belongs sunriseDeterminatedBy value _LONGITUDE,
+    _SUNRISE belongs sunriseDeterminatedBy value _DATE,
+    _SUNRISE belongs sunriseDeterminatedBy value _LATITUDE,
+    _SUNRISE belongs sunriseDeterminatedBy value _LONGITUDE

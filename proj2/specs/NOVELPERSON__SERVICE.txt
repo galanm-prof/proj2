@@ -1,0 +1,12 @@
+ spec NOVELPERSON__SERVICE
+ Vocabulary:
+    books,
+    ontosem
+ Inputs:
+    books:Novel _NOVEL,
+    books:Person _PERSON
+ Outputs:
+ Precondition :
+    _NOVEL belongs not(isReserved some Person)
+ Effect:
+    _NOVEL belongs isReserved value _PERSON

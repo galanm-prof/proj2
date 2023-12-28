@@ -1,0 +1,22 @@
+ spec fall_down_pill
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:MesseModul MesseModul
+ Outputs:
+    messemodul:Slider Slider,
+    spatial_ontology:SpatialZone CupZone,
+    messemodul:Pill Pill,
+    messemodul:UltraSoundSensor UltraSoundSensor,
+    spatial_ontology:SpatialZone SliderZone,
+    messemodul:Cup Cup
+ Precondition :
+    MesseModul belongs consistsOf value UltraSoundSensor,
+    UltraSoundSensor belongs detectsCup value Cup,
+    Pill belongs isLocatedIn value SliderZone,
+    Slider belongs hasCargoArea value SliderZone,
+    Cup belongs hasCargoArea value CupZone,
+    MesseModul belongs consistsOf value Slider,
+    Slider belongs Down
+ Effect:
+    Pill belongs isLocatedIn value CupZone

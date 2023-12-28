@@ -1,0 +1,20 @@
+ spec PERSONOBJECTCREDITACCOUNT_PRICE_SERVICE
+ Vocabulary:
+    Mid-level-ontology,
+    simplified_sumo,
+    books,
+    concept,
+    ontosem,
+    core-plus-office
+ Inputs:
+    books:Person _PERSON,
+    simplified_sumo:Object _OBJECT,
+    Mid-level-ontology:CreditAccount _CREDITACCOUNT
+ Outputs:
+    concept:RecommendedPrice _PRICE
+ Precondition :
+    _CREDITACCOUNT belongs Accepted,
+    _CREDITACCOUNT belongs accountHolder value _PERSON,
+    _PERSON belongs Authorized
+ Effect:
+    _OBJECT belongs hasPrice value _PRICE

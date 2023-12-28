@@ -1,0 +1,15 @@
+ spec USZIPCODE_DISTANCE_SERVICE
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    geographydataset:US5DigitZipCode _USZIPCODE1,
+    geographydataset:US5DigitZipCode _USZIPCODE2
+ Outputs:
+    geographydataset:GeographicDistance _DISTANCE
+ Precondition :
+    _USZIPCODE1 belongs not(equal value _USZIPCODE2)
+ Effect:
+    _DISTANCE belongs hasMeasurementUnit some KilometerLengthUnit,
+    _DISTANCE belongs hasLocation some (inverse(identifiesObject) value _USZIPCODE2),
+    _DISTANCE belongs hasLocation some (inverse(identifiesObject) value _USZIPCODE1)

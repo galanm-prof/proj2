@@ -1,0 +1,17 @@
+ spec REALTIME_GEOCODING_SERVICE
+ Vocabulary:
+    core-plus-office,
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    protonu:State _STATE,
+    geographydataset:UniqueIdentifier _USERID
+ Outputs:
+    protont:Location _LOCATION
+ Precondition :
+    _USERID belongs Authorized,
+    _STATE belongs locatedIn value _COUNTRY,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _CITY belongs locatedIn value _LOCATION

@@ -1,0 +1,23 @@
+ spec LIST_MATCHING_CITIES_SERVICE
+ Vocabulary:
+    protonu,
+    geographydataset,
+    core-plus-office,
+    SUMO
+ Inputs:
+    protonu:City _CITY,
+    geographydataset:UniqueIdentifier _USERID
+ Outputs:
+    geographydataset:PostalCode _POSTALCODE,
+    protonu:TimeZone _TIMEZONE,
+    protonu:City _MATCHED-CITY,
+    protonu:Country _COUNTRY,
+    protonu:State _STATE
+ Precondition :
+    _USERID belongs Authorized
+ Effect:
+    _CITY belongs belongsToTimeZone value _TIMEZONE,
+    _CITY belongs equal value _MATCHED-CITY,
+    _STATE belongs locatedIn value _COUNTRY,
+    _MATCHED-CITY belongs locatedIn value _STATE,
+    _CITY belongs hasNumberCode value _POSTALCODE

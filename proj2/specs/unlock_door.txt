@@ -1,0 +1,11 @@
+ spec unlock_door
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:Door Door
+ Outputs:
+ Precondition :
+    Door belongs Closed,
+    Door belongs Locked
+ Effect:
+    Door belongs Unlocked

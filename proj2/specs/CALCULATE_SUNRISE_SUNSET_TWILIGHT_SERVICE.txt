@@ -1,0 +1,34 @@
+ spec CALCULATE_SUNRISE_SUNSET_TWILIGHT_SERVICE
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protonu:TimeZone _TIMEZONE,
+    geographydataset:Code _LICENSEKEY,
+    protonu:Date _DATE,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Outputs:
+    geographydataset:Sunset _SUNSET,
+    geographydataset:Sunrise _SUNRISE,
+    geographydataset:Twilight _SUNRISE-TWILIGHT,
+    geographydataset:Twilight _SUNSET-TWILIGHT
+ Precondition :
+    _LATITUDE belongs belongsToTimeZone value _TIMEZONE,
+    _LONGITUDE belongs belongsToTimeZone value _TIMEZONE,
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _SUNSET belongs sunriseDeterminatedBy value _DATE,
+    _SUNSET belongs sunriseDeterminatedBy value _LATITUDE,
+    _SUNSET belongs sunriseDeterminatedBy value _LONGITUDE,
+    _SUNRISE belongs sunriseDeterminatedBy value _DATE,
+    _SUNRISE belongs sunriseDeterminatedBy value _LATITUDE,
+    _SUNRISE belongs sunriseDeterminatedBy value _LONGITUDE,
+    _SUNRISE-TWILIGHT belongs sunriseDeterminatedBy value _DATE,
+    _SUNRISE-TWILIGHT belongs sunriseDeterminatedBy value _LATITUDE,
+    _SUNRISE-TWILIGHT belongs sunriseDeterminatedBy value _LONGITUDE,
+    _SUNSET-TWILIGHT belongs sunriseDeterminatedBy value _DATE,
+    _SUNSET-TWILIGHT belongs sunriseDeterminatedBy value _LATITUDE,
+    _SUNSET-TWILIGHT belongs sunriseDeterminatedBy value _LONGITUDE

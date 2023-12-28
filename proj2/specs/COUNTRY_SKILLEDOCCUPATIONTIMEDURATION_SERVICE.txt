@@ -1,0 +1,18 @@
+ spec COUNTRY_SKILLEDOCCUPATIONTIMEDURATION_SERVICE
+ Vocabulary:
+    portal,
+    Mid-level-ontology,
+    SUMO,
+    core-plus-office,
+    books
+ Inputs:
+    portal:Country _COUNTRY,
+    books:User _USER
+ Outputs:
+    SUMO:TimeDuration _TIMEDURATION,
+    Mid-level-ontology:SkilledOccupation _SKILLEDOCCUPATION
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _SKILLEDOCCUPATION belongs hasTimeDuration value _TIMEDURATION,
+    _COUNTRY belongs offersSkilledOccupation value _SKILLEDOCCUPATION

@@ -1,0 +1,10 @@
+ spec switch_off_messemodul
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:MesseModul MesseModul
+ Outputs:
+ Precondition :
+    MesseModul belongs On
+ Effect:
+    MesseModul belongs Off

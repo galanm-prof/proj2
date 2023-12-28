@@ -1,0 +1,18 @@
+ spec SeePatientMedicalRecordsService
+ Vocabulary:
+    HospitalPhysicianOntology,
+    core-plus-office
+ Inputs:
+    HospitalPhysicianOntology:AccountPassword SeePatientMedicalRecords_PhysicianPassword,
+    HospitalPhysicianOntology:HealthInsuranceNumber SeePatientMedicalRecords_PatientHealthInsuranceNumber,
+    HospitalPhysicianOntology:PhysicianID SeePatientMedicalRecords_PhysicianID,
+    HospitalPhysicianOntology:Authorization SeePatientMedicalRecords_PhysicianAuthorization
+ Outputs:
+    HospitalPhysicianOntology:MedicalRecords SeePatientMedicalRecords_PatientMedicalRecords
+ Precondition :
+    SeePatientMedicalRecords_PhysicianPassword belongs Authorized,
+    SeePatientMedicalRecords_PhysicianID belongs Authorized
+ Effect:
+    SeePatientMedicalRecords_PhysicianAuthorization belongs isForConsultingMedicalRecords value SeePatientMedicalRecords_PatientMedicalRecords,
+    SeePatientMedicalRecords_PhysicianID belongs isAuthorizedConsultMedicalRecords value SeePatientMedicalRecords_PhysicianAuthorization,
+    Patient_hasHealthInsuranceNumber value SeePatientMedicalRecords_PatientHealthInsuranceNumber equivalentTo Patient_hasMedicalRecords value SeePatientMedicalRecords_PatientMedicalRecords

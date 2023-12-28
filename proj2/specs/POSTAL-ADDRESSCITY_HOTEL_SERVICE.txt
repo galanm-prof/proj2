@@ -1,0 +1,16 @@
+ spec POSTAL-ADDRESSCITY_HOTEL_SERVICE
+ Vocabulary:
+    portal,
+    travel,
+    protont,
+    geographydataset
+ Inputs:
+    portal:City _CITY,
+    portal:Postal-Address _POSTAL-ADDRESS
+ Outputs:
+    travel:Hotel _HOTEL
+ Precondition :
+    _CITY belongs locatedIn value Europe
+ Effect:
+    _HOTEL belongs has-postal-address value _POSTAL-ADDRESS,
+    _CITY belongs hasAccommodation value _HOTEL

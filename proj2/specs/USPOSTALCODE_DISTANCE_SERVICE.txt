@@ -1,0 +1,15 @@
+ spec USPOSTALCODE_DISTANCE_SERVICE
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    geographydataset:USPostalCode _USPOSTALCODE1,
+    geographydataset:USPostalCode _USPOSTALCODE2
+ Outputs:
+    geographydataset:GeographicDistance _DISTANCE
+ Precondition :
+    _USPOSTALCODE1 belongs not(equal value _USPOSTALCODE2)
+ Effect:
+    _DISTANCE belongs hasMeasurementUnit some InternationalMileLengthUnit,
+    _DISTANCE belongs hasLocation some (inverse(identifiesObject) value _USPOSTALCODE2),
+    _DISTANCE belongs hasLocation some (inverse(identifiesObject) value _USPOSTALCODE1)

@@ -1,0 +1,16 @@
+ spec EBookOrder3Service
+ Vocabulary:
+    books,
+    ShoppingCart,
+    ontosem,
+    core-plus-office
+ Inputs:
+    books:Title EBookRequest,
+    books:User UserAccount
+ Outputs:
+    books:Book EBook
+ Precondition :
+    UserAccount belongs Authorized,
+    EBookRequest belongs Accepted
+ Effect:
+    EBook belongs ShoppingCartRequestItems

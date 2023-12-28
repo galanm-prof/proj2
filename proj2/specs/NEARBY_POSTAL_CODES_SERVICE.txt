@@ -1,0 +1,19 @@
+ spec NEARBY_POSTAL_CODES_SERVICE
+ Vocabulary:
+    protont,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:GeographicDistanceKilometerLengthUnit _RADIUS,
+    protont:Number _MAX-RESULTS,
+    geographydataset:Code _LICENSEKEY,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Outputs:
+    geographydataset:PostalCode _POSTALCODE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _POSTALCODE belongs postalCodeDeterminedBy value _RADIUS,
+    _POSTALCODE belongs postalCodeDeterminedBy value _LATITUDE,
+    _POSTALCODE belongs postalCodeDeterminedBy value _LONGITUDE

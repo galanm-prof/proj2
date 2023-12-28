@@ -1,0 +1,23 @@
+ spec ProvideMedicalFlightInformationService
+ Vocabulary:
+    MedicalFlightCompanyOntology,
+    ontosem,
+    SUMO
+ Inputs:
+    MedicalFlightCompanyOntology:FlightNumber BookMedicalFlight_FlightNumber,
+    MedicalFlightCompanyOntology:Airport ProvideMedicalFlightInformation_DesiredDepartureAirport,
+    MedicalFlightCompanyOntology:Airport ProvideMedicalFlightInformation_DesiredArrivalAirport,
+    MedicalFlightCompanyOntology:Treatment ProvideMedicalFlightInformation_DesiredTreatment,
+    MedicalFlightCompanyOntology:FlightCategory ProvideMedicalFlightInformation_FlightCategory,
+    MedicalFlightCompanyOntology:Account BookMedicalFlight_Account,
+    MedicalFlightCompanyOntology:Diagnosis ProvideMedicalFlightInformation_Diagnosis,
+    MedicalFlightCompanyOntology:DateTime ProvideMedicalFlightInformation_DesiredDepartureDateTime
+ Outputs:
+    MedicalFlightCompanyOntology:ListOfFlights ProvideMedicalFlightInformation_ListOfFlights
+ Precondition :
+    ProvideMedicalFlightInformation_DesiredArrivalAirport belongs not(equal value ProvideMedicalFlightInformation_DesiredDepartureAirport),
+    BookMedicalFlight_Account belongs Accepted
+ Effect:
+    Flight_hasDepartureDateTime value ProvideMedicalFlightInformation_DesiredDepartureDateTime equivalentTo inverse(ListOfFlights_consistsOf) value ProvideMedicalFlightInformation_ListOfFlights,
+    Flight_hasDepartureAirport value ProvideMedicalFlightInformation_DesiredDepartureAirport equivalentTo inverse(ListOfFlights_consistsOf) value ProvideMedicalFlightInformation_ListOfFlights,
+    Flight_hasArrivalAirport value ProvideMedicalFlightInformation_DesiredArrivalAirport equivalentTo inverse(ListOfFlights_consistsOf) value ProvideMedicalFlightInformation_ListOfFlights

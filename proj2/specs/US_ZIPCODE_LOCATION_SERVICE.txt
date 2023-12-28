@@ -1,0 +1,19 @@
+ spec US_ZIPCODE_LOCATION_SERVICE
+ Vocabulary:
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:Code _LICENSEKEY,
+    geographydataset:US5DigitZipCode _ZIPCODE
+ Outputs:
+    protonu:City _CITY,
+    geographydataset:USStateCode _USSTATECODE,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _CITY belongs locatedIn some (hasNumberCode value _USSTATECODE),
+    _ZIPCODE belongs identifiesObject value _CITY,
+    _CITY belongs locatedIn value _LATITUDE,
+    _CITY belongs locatedIn value _LONGITUDE

@@ -1,0 +1,14 @@
+ spec USERROMANTICNOVEL_PRICE_SERVICE
+ Vocabulary:
+    books,
+    concept,
+    core-plus-office
+ Inputs:
+    books:RomanticNovel _ROMANTICNOVEL,
+    books:User _USER
+ Outputs:
+    concept:Price _PRICE
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _ROMANTICNOVEL belongs hasLendingPrice value _PRICE

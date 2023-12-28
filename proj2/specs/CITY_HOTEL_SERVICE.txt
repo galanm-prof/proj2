@@ -1,0 +1,14 @@
+ spec CITY_HOTEL_SERVICE
+ Vocabulary:
+    portal,
+    travel,
+    protont,
+    geographydataset
+ Inputs:
+    portal:City _CITY
+ Outputs:
+    travel:Hotel _HOTEL
+ Precondition :
+    _CITY belongs locatedIn value Germany
+ Effect:
+    {_CITY} equivalentTo (hasAccommodation value _HOTEL)

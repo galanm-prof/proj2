@@ -1,0 +1,29 @@
+ spec POSTAL_CODES_PLACES_SERVICE
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:ISOCountryCode _COUNTRYCODE,
+    geographydataset:PostalCode _POSTALCODE,
+    protonu:PopulatedPlace _PLACENAME,
+    geographydataset:Code _LICENSEKEY
+ Outputs:
+    protonu:PopulatedPlace _PLACENAME_OUT,
+    geographydataset:PostalCode _POSTALCODE_OUT,
+    protont:longitude _LONGITUDE,
+    geographydataset:ISOCountryCode _COUNTRYCODE_OUT,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _PLACENAME belongs belongsToCountry some (hasCountryCode value _COUNTRYCODE_OUT),
+    _PLACENAME belongs belongsToCountry some (hasCountryCode value _COUNTRYCODE_OUT),
+    _PLACENAME_OUT belongs hasPostalCode value _POSTALCODE_OUT,
+    _PLACENAME_OUT belongs hasPostalCode value _POSTALCODE,
+    _PLACENAME_OUT belongs hasLongitude value _LONGITUDE,
+    _PLACENAME_OUT belongs hasLatitude value _LATITUDE,
+    _PLACENAME belongs hasPostalCode value _POSTALCODE_OUT,
+    _PLACENAME belongs hasLongitude value _LONGITUDE,
+    _PLACENAME belongs hasLatitude value _LATITUDE

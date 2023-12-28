@@ -1,0 +1,15 @@
+ spec SCIENCEFICTIONBOOKUSER_PRICE_SERVICE
+ Vocabulary:
+    books,
+    concept,
+    core-plus-office
+ Inputs:
+    books:ScienceFictionBook _SCIENCEFICTIONBOOK,
+    books:User _USER
+ Outputs:
+    concept:Price _PRICE
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _PRICE belongs priceIsDeterminatedBy value _SCIENCEFICTIONBOOK,
+    _PRICE belongs priceIsDeterminatedBy value _USER

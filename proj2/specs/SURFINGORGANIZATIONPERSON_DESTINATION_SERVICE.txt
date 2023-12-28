@@ -1,0 +1,16 @@
+ spec SURFINGORGANIZATIONPERSON_DESTINATION_SERVICE
+ Vocabulary:
+    core-plus-office,
+    portal,
+    travel
+ Inputs:
+    portal:Organization _ORGANIZATION,
+    portal:Person _PERSON,
+    travel:Surfing _SURFING
+ Outputs:
+    travel:Destination _DESTINATION
+ Precondition :
+    _PERSON belongs Authorized
+ Effect:
+    _PERSON belongs works-for value _ORGANIZATION,
+    _SURFING belongs isOfferedAt value _DESTINATION

@@ -1,0 +1,16 @@
+ spec USERSCIENCE-FICTION-NOVEL_RECOMMENDEDPRICEREVIEW_SERVICE
+ Vocabulary:
+    concept,
+    books,
+    core-plus-office
+ Inputs:
+    books:Science-Fiction-Novel _SCIENCE-FICTION-NOVEL,
+    books:User _USER
+ Outputs:
+    books:Review _REVIEW,
+    concept:RecommendedPrice _RECOMMENDEDPRICE
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _SCIENCE-FICTION-NOVEL belongs hasReview value _REVIEW,
+    _SCIENCE-FICTION-NOVEL belongs hasPrice value _RECOMMENDEDPRICE

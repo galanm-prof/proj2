@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="apache-jena-4.8">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../apache-jena-4.8.0" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

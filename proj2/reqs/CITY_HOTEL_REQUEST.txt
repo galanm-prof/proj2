@@ -1,0 +1,13 @@
+ req CITY_HOTEL_REQUEST
+ Vocabulary:
+    portal,
+    travel,
+    protont,
+    geographydataset
+ Inputs:
+    portal:City _CITY
+ Outputs:
+    travel:Hotel _HOTEL
+ Precondition :
+ Effect:
+    {_CITY} equivalentTo (hasAccommodation value _HOTEL)

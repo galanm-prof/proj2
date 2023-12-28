@@ -1,0 +1,16 @@
+ req CALCULATE_SUNRISE_REQUEST
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protonu:Date _DATE,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Outputs:
+    geographydataset:Sunrise _SUNRISE
+ Precondition :
+ Effect:
+    _SUNRISE belongs sunriseDeterminatedBy value _DATE,
+    _SUNRISE belongs sunriseDeterminatedBy some (hasLatitude value _LATITUDE and hasLongitude value _LONGITUDE)

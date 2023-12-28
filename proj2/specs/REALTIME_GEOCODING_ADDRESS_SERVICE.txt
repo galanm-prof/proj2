@@ -1,0 +1,26 @@
+ spec REALTIME_GEOCODING_ADDRESS_SERVICE
+ Vocabulary:
+    core-plus-office,
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    geographydataset:US5DigitZipCode _ZIPCODE,
+    protonu:Address _ADDRESS,
+    protonu:State _STATE,
+    geographydataset:UniqueIdentifier _USERID
+ Outputs:
+    protonu:Address _MATCHING-ADDRESS,
+    protont:Location _LOCATION
+ Precondition :
+    _USERID belongs Authorized,
+    _STATE belongs locatedIn value _COUNTRY,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _ZIPCODE belongs identifiesObject value _COUNTRY,
+    _ZIPCODE belongs identifiesObject value _STATE,
+    _ZIPCODE belongs identifiesObject value _CITY,
+    _ZIPCODE belongs identifiesObject value _LOCATION,
+    _CITY belongs locatedIn value _LOCATION,
+    _MATCHING-ADDRESS belongs locatedIn value _LOCATION,
+    _ADDRESS belongs locatedIn value _LOCATION

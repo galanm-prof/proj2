@@ -1,0 +1,24 @@
+ spec UpdatePatientMedicalRecordsService
+ Vocabulary:
+    HospitalPhysicianOntology,
+    core-plus-office
+ Inputs:
+    HospitalPhysicianOntology:Diagnosis UpdatePatientMedicalRecords_Diagnosis,
+    HospitalPhysicianOntology:PhysicianID UpdatePatientMedicalRecords_PhysicianID,
+    HospitalPhysicianOntology:Authorization UpdatePatientMedicalRecords_PhysicianAuthorization,
+    HospitalPhysicianOntology:AccountPassword UpdatePatientMedicalRecords_PhysicianPassword,
+    HospitalPhysicianOntology:Drug UpdatePatientMedicalRecords_UsedDrugs,
+    HospitalPhysicianOntology:DateTime UpdatePatientMedicalRecords_TreatmentDateTime,
+    HospitalPhysicianOntology:Treatment UpdatePatientMedicalRecords_Treatment,
+    HospitalPhysicianOntology:GpsPosition PatientTransport_PatientGpsPosition,
+    HospitalPhysicianOntology:HealthInsuranceNumber UpdatePatientMedicalRecords_PatientHealthInsuranceNumber
+ Outputs:
+    HospitalPhysicianOntology:Acknowledgement UpdatePatientMedicalRecords_Acknowledgement,
+    HospitalPhysicianOntology:MedicalRecords UpdatePatientMedicalRecords_PatientMedicalRecords
+ Precondition :
+    UpdatePatientMedicalRecords_PhysicianPassword belongs Authorized,
+    UpdatePatientMedicalRecords_PhysicianID belongs Authorized
+ Effect:
+    UpdatePatientMedicalRecords_Acknowledgement belongs isForUpdatingMedicalRecords value UpdatePatientMedicalRecords_PatientMedicalRecords,
+    UpdatePatientMedicalRecords_PhysicianID belongs isAuthorizedUpdateMedicalRecords value UpdatePatientMedicalRecords_PhysicianAuthorization,
+    Patient_hasHealthInsuranceNumber value UpdatePatientMedicalRecords_PatientHealthInsuranceNumber equivalentTo Patient_hasMedicalRecords value UpdatePatientMedicalRecords_PatientMedicalRecords

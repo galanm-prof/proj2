@@ -1,0 +1,15 @@
+ spec USERBOOK_PRICE_SERVICE
+ Vocabulary:
+    books,
+    concept,
+    core-plus-office
+ Inputs:
+    books:Book _BOOK,
+    books:User _USER
+ Outputs:
+    concept:Price _PRICE
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _PRICE belongs priceIsDeterminatedBy value _BOOK,
+    _PRICE belongs priceIsDeterminatedBy value _USER

@@ -1,0 +1,14 @@
+ spec PERSONBOOK_PRICE_SERVICE
+ Vocabulary:
+    core-plus-office,
+    books,
+    concept
+ Inputs:
+    books:Book _BOOK,
+    books:Person _PERSON
+ Outputs:
+    concept:Price _PRICE
+ Precondition :
+    _PERSON belongs Authorized
+ Effect:
+    _BOOK belongs hasLendingPrice value _PRICE

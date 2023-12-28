@@ -1,0 +1,61 @@
+// Lexical Analyzer (experiment)
+lexer grammar LexerExperiment;
+
+REPOSITORIES:'REPOSITORIES';
+REQUESTS:'REQUESTS';
+REPOSITORY:'REPOSITORY';
+SEARCHING:'SEARCHING';
+
+NUMBERINFORMATIONSPACESTRONGSETS: 'numberInformationSpaceStrongSets';
+NUMBERINFORMATIONSPACEWEAKSETS: 'numberInformationSpaceWeakSets';
+NUMBERSTATESPACESTRONGSETS: 'numberStateSpaceStrongSets';
+NUMBERSTATESPACEWEAKSETS: 'numberStateSpaceWeakSets';
+MEANSIZEINFORMATIONSPACESTRONGSETS:'meanSizeInformationSpaceStrongSets';
+MEANSIZEINFORMATIONSPACESTRONGSETSMAX:'meanSizeInformationSpaceStrongSetsMax';
+MEANSIZEINFORMATIONSPACEWEAKSETS:'meanSizeInformationSpaceWeakSets';
+MEANSIZEINFORMATIONSPACEWEAKSETSMAX:'meanSizeInformationSpaceWeakSetsMax';
+MEANSIZESTATESPACESTRONGSETS:'meanSizeStateSpaceStrongSets';
+MEANSIZESTATESPACESTRONGSETSMAX:'meanSizeStateSpaceStrongSetsMax';
+MEANSIZESTATESPACEWEAKSETS:'meanSizeStateSpaceWeakSets';
+MEANSIZESTATESPACEWEAKSETSMAX:'meanSizeStateSpaceWeakSetsMax';
+MEANRELATIVESIZEINFORMATIONSPACESTRONGSETS:'meanRelativeSizeInformationSpaceStrongSets';
+MEANRELATIVESIZEINFORMATIONSPACESTRONGSETSMAX:'meanRelativeSizeInformationSpaceStrongSetsMax';
+MEANRELATIVESIZEINFORMATIONSPACEWEAKSETS:'meanRelativeSizeInformationSpaceWeakSets';
+MEANRELATIVESIZEINFORMATIONSPACEWEAKSETSMAX:'meanRelativeSizeInformationSpaceWeakSetsMax';
+MEANRELATIVESIZESTATESPACESTRONGSETS:'meanRelativeSizeStateSpaceStrongSets';
+MEANRELATIVESIZESTATESPACESTRONGSETSMAX:'meanRelativeSizeStateSpaceStrongSetsMax';
+MEANRELATIVESIZESTATESPACEWEAKSETS:'meanRelativeSizeStateSpaceWeakSets';
+MEANRELATIVESIZESTATESPACEWEAKSETSMAX:'meanRelativeSizeStateSpaceWeakSetsMax';
+TRUE:'true';
+
+INEFFICIENT: 'inefficient';
+EFFICIENTLEVEL1: 'efficient-1-level';
+EFFICIENTLEVEL2: 'efficient-2-level';
+
+OR:'or';
+AND:'and';
+NEG:'not';
+
+OP:'(';
+CP:')';
+COMMA: ',';
+COLON:':';
+SEMICOLON:';';
+
+BLANK : ' ' ->skip;
+TAB : '\t'->skip;
+NL: '\r'?'\n' ->skip;
+
+fragment LETTER: 'a'..'z'|'A'..'Z';
+fragment DIGIT: '0'..'9';
+UNDERLINE: '_';
+MINUS:'-';
+DOT:'.';
+
+DBL: (DIGIT)+ DOT (DIGIT)* | DOT (DIGIT)+ ;
+INT: (DIGIT)+ ;
+ID: (UNDERLINE|LETTER)(UNDERLINE|LETTER|DIGIT|MINUS|DOT)*;
+
+LINECOMMENTARY  :  '//' .*? NL -> skip ;
+BLOCKCOMMENTARY : '/*' .*? '*/' -> skip ;
+

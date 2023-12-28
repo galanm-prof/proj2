@@ -1,0 +1,18 @@
+ spec ADDRESS_LOCATION_SERVICE2
+ Vocabulary:
+    core-plus-office,
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    protonu:Address _ADDRESS,
+    geographydataset:UniqueIdentifier _USERID
+ Outputs:
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _CITY belongs locatedIn value _COUNTRY,
+    _USERID belongs Authorized
+ Effect:
+    _ADDRESS belongs locatedIn value _LATITUDE,
+    _ADDRESS belongs locatedIn value _LONGITUDE

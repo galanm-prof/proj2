@@ -1,0 +1,18 @@
+ spec ProvideNonMedicalFlightInformationService
+ Vocabulary:
+    NonMedicalFlightCompanyOntology,
+    SUMO
+ Inputs:
+    NonMedicalFlightCompanyOntology:FlightCategory ProvideNonMedicalFlightInformation_FlightCategory,
+    NonMedicalFlightCompanyOntology:DateTime ProvideNonMedicalFlightInformation_DesiredDepartureDateTime,
+    NonMedicalFlightCompanyOntology:AccountName GetNonMedicalFlightAccount_CustomerDesiredAccountName,
+    NonMedicalFlightCompanyOntology:Airport ProvideNonMedicalFlightInformation_DesiredArrivalAirport,
+    NonMedicalFlightCompanyOntology:Airport ProvideNonMedicalFlightInformation_DesiredDepartureAirport
+ Outputs:
+    NonMedicalFlightCompanyOntology:ListOfFlights ProvideNonMedicalFlightInformation_ListOfFlights
+ Precondition :
+    ProvideNonMedicalFlightInformation_DesiredDepartureAirport belongs not(equal value ProvideNonMedicalFlightInformation_DesiredArrivalAirport)
+ Effect:
+    Flight_hasDepartureDateTime value ProvideNonMedicalFlightInformation_DesiredDepartureDateTime equivalentTo inverse(ListOfFlights_consistsOf) value ProvideNonMedicalFlightInformation_ListOfFlights,
+    Flight_hasDepartureAirport value ProvideNonMedicalFlightInformation_DesiredDepartureAirport equivalentTo inverse(ListOfFlights_consistsOf) value ProvideNonMedicalFlightInformation_ListOfFlights,
+    Flight_hasArrivalAirport value ProvideNonMedicalFlightInformation_DesiredArrivalAirport equivalentTo inverse(ListOfFlights_consistsOf) value ProvideNonMedicalFlightInformation_ListOfFlights

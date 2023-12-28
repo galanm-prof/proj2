@@ -1,0 +1,19 @@
+ spec CITY_STATE_LOCATION_SERVICE
+ Vocabulary:
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    protonu:State _STATE
+ Outputs:
+    geographydataset:US5DigitZipCode _ZIPCODE,
+    protont:longitude _LONGITUDE,
+    geographydataset:US3DigitZipCode _AREACODE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _STATE belongs locatedIn value USA,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _AREACODE belongs identifiesObject value _STATE,
+    _ZIPCODE belongs identifiesObject value _CITY,
+    _CITY belongs locatedIn value _LATITUDE,
+    _CITY belongs locatedIn value _LONGITUDE

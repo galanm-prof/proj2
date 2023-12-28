@@ -1,0 +1,17 @@
+ spec PERSONCOUNTRYCITY_SPORTSHOTEL_SERVICE
+ Vocabulary:
+    travel,
+    portal,
+    protont
+ Inputs:
+    travel:City _CITY,
+    portal:Person _PERSON,
+    portal:Country _COUNTRY
+ Outputs:
+    travel:Sports _SPORTS,
+    travel:Hotel _HOTEL
+ Precondition :
+    _CITY belongs locatedIn value _COUNTRY
+ Effect:
+    _CITY belongs hasActivity value _SPORTS,
+    _PERSON belongs works-for value _HOTEL

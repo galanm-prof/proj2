@@ -1,0 +1,42 @@
+ spec DRIVING_DIRECTIONS_SERVICE
+ Vocabulary:
+    Units,
+    SUMO,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    protont:longitude _END-LONGITUDE,
+    Units:Pixel _IMAGE-WIDTH,
+    protont:latitude _START-LATITUDE,
+    protont:latitude _END-LATITUDE,
+    protont:longitude _START-LONGITUDE,
+    protont:Language _LANGUAGE,
+    geographydataset:UniqueIdentifier _USERID,
+    Units:Pixel _IMAGE-HEIGHT
+ Outputs:
+    geographydataset:TimeUnit _TOTAL-DRIVING-TIME,
+    geographydataset:Map _MAP,
+    geographydataset:GeographicDistance _TOTAL-DISTANCE,
+    geographydataset:DrivingDirections _DIRECTIONS
+ Precondition :
+    _USERID belongs Authorized,
+    _START-LONGITUDE belongs not(equal value _END-LONGITUDE)
+ Effect:
+    _TOTAL-DISTANCE belongs hasMeasurementUnit some GeographicDistanceKilometerLengthUnit,
+    _DIRECTIONS belongs describes some (drivingTime value _TOTAL-DRIVING-TIME),
+    _MAP belongs representsInformation some (optimalrouteBegins value _START-LATITUDE and optimalrouteBegins value _START-LONGITUDE and optimalrouteEnds value _END-LATITUDE and optimalrouteEnds value _END-LONGITUDE),
+    _TOTAL-DISTANCE belongs hasLocation value _END-LONGITUDE,
+    _TOTAL-DISTANCE belongs hasLocation value _END-LATITUDE,
+    _TOTAL-DISTANCE belongs hasLocation value _START-LONGITUDE,
+    _TOTAL-DISTANCE belongs hasLocation value _START-LATITUDE
+ Precondition :
+    _USERID belongs Authorized,
+    _START-LATITUDE belongs not(equal value _END-LATITUDE)
+ Effect:
+    _TOTAL-DISTANCE belongs hasMeasurementUnit some GeographicDistanceKilometerLengthUnit,
+    _DIRECTIONS belongs describes some (drivingTime value _TOTAL-DRIVING-TIME),
+    _MAP belongs representsInformation some (optimalrouteBegins value _START-LATITUDE and optimalrouteBegins value _START-LONGITUDE and optimalrouteEnds value _END-LATITUDE and optimalrouteEnds value _END-LONGITUDE),
+    _TOTAL-DISTANCE belongs hasLocation value _END-LONGITUDE,
+    _TOTAL-DISTANCE belongs hasLocation value _END-LATITUDE,
+    _TOTAL-DISTANCE belongs hasLocation value _START-LONGITUDE,
+    _TOTAL-DISTANCE belongs hasLocation value _START-LATITUDE

@@ -1,0 +1,13 @@
+ spec PUBLICATIONPERSON__SERVICE
+ Vocabulary:
+    books,
+    ShoppingCart,
+    core-plus-office
+ Inputs:
+    books:Person _PERSON,
+    books:Publication _PUBLICATION
+ Outputs:
+ Precondition :
+    _PERSON belongs Authorized
+ Effect:
+    _PUBLICATION belongs ShoppingCartRequestItems

@@ -1,0 +1,16 @@
+ spec flip_up_slider
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:MesseModul MesseModul
+ Outputs:
+    messemodul:Slider Slider,
+    messemodul:UltraSoundSensor UltraSoundSensor,
+    messemodul:Cup Cup
+ Precondition :
+    MesseModul belongs consistsOf value UltraSoundSensor,
+    UltraSoundSensor belongs detectsCup value Cup,
+    MesseModul belongs consistsOf value Slider,
+    Slider belongs Down
+ Effect:
+    Slider belongs Up

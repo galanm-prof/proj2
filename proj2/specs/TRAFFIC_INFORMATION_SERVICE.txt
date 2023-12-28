@@ -1,0 +1,27 @@
+ spec TRAFFIC_INFORMATION_SERVICE
+ Vocabulary:
+    Units,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:KilometerLengthUnit _RANGE,
+    Units:Pixel _IMAGE-WIDTH,
+    protont:longitude _LONGITUDE,
+    protont:Language _LANGUAGE,
+    geographydataset:UniqueIdentifier _USERID,
+    protont:latitude _LATITUDE,
+    Units:Pixel _IMAGE-HEIGHT
+ Outputs:
+    geographydataset:TrafficIncident _INCIDENTS,
+    geographydataset:Map _MAP,
+    geographydataset:Coordinate _HOTSPOTS
+ Precondition :
+    _USERID belongs Authorized
+ Effect:
+    _HOTSPOTS belongs identifiesObject value _LATITUDE,
+    _HOTSPOTS belongs identifiesObject value _LONGITUDE,
+    _HOTSPOTS belongs identifiesObject value _INCIDENTS,
+    _INCIDENTS belongs hasLocation value _LATITUDE,
+    _INCIDENTS belongs hasLocation value _LONGITUDE,
+    _MAP belongs representsInformation value _LATITUDE,
+    _MAP belongs representsInformation value _LONGITUDE

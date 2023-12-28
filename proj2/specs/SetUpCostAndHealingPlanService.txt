@@ -1,0 +1,22 @@
+ spec SetUpCostAndHealingPlanService
+ Vocabulary:
+    HospitalPhysicianOntology,
+    core-plus-office,
+    ontosem
+ Inputs:
+    HospitalPhysicianOntology:Drug SetUpCostAndHealingPlan_RequiredDrugs,
+    HospitalPhysicianOntology:Diagnosis SetUpCostAndHealingPlan_Diagnosis,
+    HospitalPhysicianOntology:Treatment UpdatePatientMedicalRecords_Treatment,
+    HospitalPhysicianOntology:PersonName SetUpCostAndHealingPlan_PatientName,
+    HospitalPhysicianOntology:DateTime SetUpCostAndHealingPlan_TreatmentDateTime,
+    HospitalPhysicianOntology:HealthInsuranceNumber SetUpCostAndHealingPlan_PatientHealthInsuranceNumber,
+    HospitalPhysicianOntology:PhysicianID SetUpCostAndHealingPlan_PhysicianID,
+    HospitalPhysicianOntology:GpsPosition PatientTransport_PatientGpsPosition
+ Outputs:
+    HospitalPhysicianOntology:CostAndHealingPlan SetUpCostAndHealingPlan_CostAndHealingPlan,
+    HospitalPhysicianOntology:Acknowledgement UpdatePatientMedicalRecords_Acknowledgement
+ Precondition :
+    SetUpCostAndHealingPlan_PhysicianID belongs Authorized
+ Effect:
+    UpdatePatientMedicalRecords_Treatment belongs Authorized,
+    SetUpCostAndHealingPlan_CostAndHealingPlan belongs Accepted

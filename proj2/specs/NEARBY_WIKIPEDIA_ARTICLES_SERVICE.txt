@@ -1,0 +1,30 @@
+ spec NEARBY_WIKIPEDIA_ARTICLES_SERVICE
+ Vocabulary:
+    protont,
+    books,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:GeographicDistanceKilometerLengthUnit _RADIUS,
+    geographydataset:ISOCountryCode _COUNTRYCODE,
+    geographydataset:PostalCode _POSTALCODE,
+    protont:Number _MAX-RESULTS,
+    geographydataset:Code _LICENSEKEY,
+    protont:Language _LANGUAGE
+ Outputs:
+    geographydataset:GeographicDistance _DISTANCE,
+    protont:longitude _LONGITUDE,
+    books:Article _WIKIPEDIA-ARTICLE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _WIKIPEDIA-ARTICLE belongs locatedIn value _LATITUDE,
+    _WIKIPEDIA-ARTICLE belongs locatedIn value _LONGITUDE,
+    _WIKIPEDIA-ARTICLE belongs localizedBy value _RADIUS,
+    _WIKIPEDIA-ARTICLE belongs localizedBy value _POSTALCODE,
+    _WIKIPEDIA-ARTICLE belongs localizedBy value _COUNTRYCODE,
+    _POSTALCODE belongs postalCodeDeterminedBy value _DISTANCE,
+    _POSTALCODE belongs postalCodeDeterminedBy value _LATITUDE,
+    _POSTALCODE belongs postalCodeDeterminedBy value _LONGITUDE,
+    _WIKIPEDIA-ARTICLE belongs writtenInLanguage value _LANGUAGE

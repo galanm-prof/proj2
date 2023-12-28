@@ -1,0 +1,14 @@
+ spec TOWNCOUNTRY_HOTEL_SERVICE
+ Vocabulary:
+    portal,
+    travel,
+    protont
+ Inputs:
+    portal:Town _TOWN,
+    portal:Country _COUNTRY
+ Outputs:
+    travel:Hotel _HOTEL
+ Precondition :
+    _TOWN belongs locatedIn value _COUNTRY
+ Effect:
+    _TOWN belongs hasAccommodation value _HOTEL

@@ -1,0 +1,12 @@
+ spec GEOPOLITICAL-ENTITYGEOPOLITICAL-ENTITY__SERVICE
+ Vocabulary:
+    portal,
+    SUMO
+ Inputs:
+    portal:Geopolitical-Entity _GEOPOLITICAL-ENTITY1,
+    portal:Geopolitical-Entity _GEOPOLITICAL-ENTITY
+ Outputs:
+ Precondition :
+    _GEOPOLITICAL-ENTITY belongs not(equal value _GEOPOLITICAL-ENTITY1)
+ Effect:
+    _GEOPOLITICAL-ENTITY belongs linked value _GEOPOLITICAL-ENTITY1

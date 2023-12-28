@@ -1,0 +1,25 @@
+ spec ADDRESS_LOCATION_SERVICE3
+ Vocabulary:
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    geographydataset:PostalCode _POSTALCODE,
+    protonu:Country _COUNTRY,
+    protonu:State _STATE,
+    protonu:Street _STREET
+ Outputs:
+    protonu:Address _ADDRESS,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _STATE belongs locatedIn value _COUNTRY,
+    _CITY belongs hasPostalCode value _POSTALCODE,
+    _STREET belongs locatedIn value _CITY,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _ADDRESS belongs hasLongitude value _LONGITUDE,
+    _ADDRESS belongs hasLatitude value _LATITUDE,
+    _ADDRESS belongs identifiesLocation value _COUNTRY,
+    _ADDRESS belongs identifiesLocation value _STATE,
+    _ADDRESS belongs identifiesLocation value _CITY,
+    _ADDRESS belongs identifiesLocation value _STREET

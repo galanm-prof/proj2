@@ -1,0 +1,18 @@
+ spec ZIPCODE_INFO_SERVICE
+ Vocabulary:
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:Code _LICENSEKEY,
+    geographydataset:US5DigitZipCode _ZIPCODE
+ Outputs:
+    protonu:City _CITY,
+    geographydataset:daylightSavingTime _DAYLIGHTSAVINGTIME,
+    protonu:TimeZone _TIMEZONE,
+    protonu:State _STATE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _STATE belongs belongsToTimeZone value _TIMEZONE,
+    _CITY belongs locatedIn value _STATE

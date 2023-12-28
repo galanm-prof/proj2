@@ -1,0 +1,17 @@
+ spec ZIPCODE_LOCATION_SERVICE
+ Vocabulary:
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:Code _LICENSEKEY,
+    geographydataset:US5DigitZipCode _ZIPCODE
+ Outputs:
+    protonu:State _STATE,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _ZIPCODE belongs identifiesObject value _STATE,
+    _ZIPCODE belongs identifiesObject value _LATITUDE,
+    _ZIPCODE belongs identifiesObject value _LONGITUDE

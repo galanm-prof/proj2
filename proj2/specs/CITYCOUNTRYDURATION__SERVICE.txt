@@ -1,0 +1,16 @@
+ spec CITYCOUNTRYDURATION__SERVICE
+ Vocabulary:
+    portal,
+    travel,
+    protont
+ Inputs:
+    travel:City _CITY,
+    portal:Country _COUNTRY,
+    support:Duration _DURATION,
+    travel:Hotel _HOTEL
+ Outputs:
+ Precondition :
+    _CITY belongs hasAccommodation value _HOTEL,
+    _CITY belongs locatedIn value _COUNTRY
+ Effect:
+    _HOTEL belongs isReserved value _DURATION

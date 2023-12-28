@@ -1,0 +1,18 @@
+ spec BookNonMedicalFlightService
+ Vocabulary:
+    NonMedicalFlightCompanyOntology,
+    TravelMessageOntology,
+    Mid-level-ontology,
+    books
+ Inputs:
+    NonMedicalFlightCompanyOntology:FlightNumber BookNonMedicalFlight_FlightNumber,
+    books:User BookNonMedicalFlight_User,
+    NonMedicalFlightCompanyOntology:Account BookNonMedicalFlight_Account
+ Outputs:
+    NonMedicalFlightCompanyOntology:SeatNumber BookNonMedicalFlight_SeatNumber,
+    NonMedicalFlightCompanyOntology:AirportGate BookNonMedicalFlight_AirportGate,
+    NonMedicalFlightCompanyOntology:BookingNumber BookNonMedicalFlight_BookingNumber
+ Precondition :
+    BookNonMedicalFlight_Account belongs accountHolder value BookNonMedicalFlight_User
+ Effect:
+    BookNonMedicalFlight_SeatNumber belongs Booking

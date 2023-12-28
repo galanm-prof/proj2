@@ -1,0 +1,14 @@
+ spec LOCATIONLOCATION_ICON_SERVICE
+ Vocabulary:
+    portal,
+    SUMO
+ Inputs:
+    portal:Location _LOCATION1,
+    portal:Location _LOCATION2
+ Outputs:
+    SUMO:Icon _ICON
+ Precondition :
+    _LOCATION1 belongs not(equal value _LOCATION2)
+ Effect:
+    _ICON belongs represents some (roadwayBetween value _LOCATION2),
+    _ICON belongs represents some (roadwayBetween value _LOCATION1)

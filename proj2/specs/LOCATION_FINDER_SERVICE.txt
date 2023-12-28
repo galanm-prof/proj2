@@ -1,0 +1,16 @@
+ spec LOCATION_FINDER_SERVICE
+ Vocabulary:
+    protonu
+ Inputs:
+    protonu:City _CITY,
+    protonu:Country _COUNTRY,
+    protonu:State _STATE
+ Outputs:
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _STATE belongs locatedIn value _COUNTRY,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _CITY belongs locatedIn value _LATITUDE,
+    _CITY belongs locatedIn value _LONGITUDE

@@ -1,0 +1,18 @@
+ spec ADDRESS_MAP_SERVICE
+ Vocabulary:
+    protont,
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    geographydataset:PostalCode _ZIPCODE,
+    protonu:PostalAddress _ADDRESS,
+    protonu:State _STATE
+ Outputs:
+    geographydataset:Map _MAP
+ Precondition :
+    _ADDRESS belongs identifiesLocation value USA,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _MAP belongs representsInformation value _CITY,
+    _STATE belongs hasNumberCode value _ZIPCODE,
+    _CITY belongs hasNumberCode value _ZIPCODE

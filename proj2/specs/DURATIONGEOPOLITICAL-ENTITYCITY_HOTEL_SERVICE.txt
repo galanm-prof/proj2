@@ -1,0 +1,16 @@
+ spec DURATIONGEOPOLITICAL-ENTITYCITY_HOTEL_SERVICE
+ Vocabulary:
+    travel,
+    portal,
+    protont
+ Inputs:
+    travel:City _CITY,
+    portal:Geopolitical-Entity _GEOPOLITICAL-ENTITY,
+    support:Duration _DURATION
+ Outputs:
+    travel:Hotel _HOTEL
+ Precondition :
+    _CITY belongs locatedIn value _GEOPOLITICAL-ENTITY
+ Effect:
+    _HOTEL belongs isAvailable value _DURATION,
+    _CITY belongs hasAccommodation value _HOTEL

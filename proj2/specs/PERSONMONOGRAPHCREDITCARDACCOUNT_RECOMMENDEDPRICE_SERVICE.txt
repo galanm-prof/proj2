@@ -1,0 +1,19 @@
+ spec PERSONMONOGRAPHCREDITCARDACCOUNT_RECOMMENDEDPRICE_SERVICE
+ Vocabulary:
+    Mid-level-ontology,
+    books,
+    ontosem,
+    core-plus-office,
+    concept
+ Inputs:
+    books:Person _PERSON,
+    Mid-level-ontology:CreditCardAccount _CREDITCARDACCOUNT,
+    books:Monograph _MONOGRAPH
+ Outputs:
+    concept:RecommendedPrice _RECOMMENDEDPRICE
+ Precondition :
+    _CREDITCARDACCOUNT belongs Accepted,
+    _PERSON belongs Authorized,
+    _CREDITCARDACCOUNT belongs accountHolder value _PERSON
+ Effect:
+    _MONOGRAPH belongs hasPrice value _RECOMMENDEDPRICE

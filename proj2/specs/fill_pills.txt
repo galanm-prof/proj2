@@ -1,0 +1,10 @@
+ spec fill_pills
+ Vocabulary:
+    messemodul
+ Inputs:
+    messemodul:Magazine Magazine
+ Outputs:
+ Precondition :
+    Magazine belongs Empty
+ Effect:
+    Magazine belongs Full

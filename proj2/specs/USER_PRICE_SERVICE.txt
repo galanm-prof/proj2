@@ -1,0 +1,19 @@
+ spec USER_PRICE_SERVICE
+ Vocabulary:
+    books,
+    concept,
+    core-plus-office,
+    ShoppingCart,
+    portal,
+    order
+ Inputs:
+    portal:Postal-Address _ADDRESS,
+    books:User _USER
+ Outputs:
+    concept:Price _PRICE,
+    ShoppingCart:ShoppingCartRequestItems _ITEMS
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _ITEMS belongs hasPrice value _PRICE,
+    _ITEMS belongs shipTo value _ADDRESS

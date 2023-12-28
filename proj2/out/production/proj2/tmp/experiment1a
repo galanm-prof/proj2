@@ -1,0 +1,748 @@
+"C:\Program Files\Java\jdk-18.0.1.1\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\lib\idea_rt.jar=60802:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Investigacion\prototypes\proj2\out\production\proj2;C:\antlr\antlr-4.11.1-complete.jar;C:\hermit\org.semanticweb.HermiT.jar;C:\hermit\HermiT.jar experiments.experiment1a
+
+Repository: 22
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 22:  100.0%
+
+Repository: 12
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_SPORTSHOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 12:  100.0%
+
+Repository: 23
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 23:  100.0%
+
+Repository: 13
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 13:  100.0%
+
+Repository: 24
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 24:  100.0%
+
+Repository: 14
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 14:  100.0%
+
+Repository: 25
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_SPORTSHOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 25:  100.0%
+
+Repository: 15
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_SPORTSHOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 15:  100.0%
+
+Repository: 26
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 26:  100.0%
+
+Repository: 16
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 16:  100.0%
+
+Repository: 27
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 27:  100.0%
+
+Repository: 17
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 17:  100.0%
+
+Repository: 28
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 28:  100.0%
+
+Repository: 18
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 18:  100.0%
+
+Repository: 29
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [COUNTRYCITY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: [TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 29:  100.0%
+
+Repository: 19
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 19:  100.0%
+
+Repository: 30
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, COUNTRYCITY_SPORTSHOTEL_SERVICE, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 30:  100.0%
+
+Repository: 20
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 20:  100.0%
+
+Repository: 31
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE, COUNTRYCITY_HOTEL_SERVICE, COUNTRYCITY_LUXURYHOTEL_SERVICE1, CITYCOUNTRY_ACCOMMODATION_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 31:  100.0%
+
+Repository: 21
+---------------
+Request: open_door_request
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CHECK_ADDRESS_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCOUNTRY_ACCOMMODATION_REQUEST
+Found services: [CITYCOUNTRY_HOTEL_SERVICE]
+Percentage of specifications which have been visited: 100.0%
+Request: CITYCITY_MAP_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: TIME-MEASUREGEOPOLITICAL-ENTITYCITY_BEDANDBREAKFAST_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: ProvideMedicalFlightInformationRequest
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CALCULATE_SUNRISE_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: GetMedicalTransportAccountRequest
+Found services: [GetMedicalTransportAccountService]
+Percentage of specifications which have been visited: 100.0%
+Request: CITY_HOTEL_REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Request: CREDITACCOUNTBOOKPERSON__REQUEST
+Found services: []
+Percentage of specifications which have been visited: 100.0%
+Mean percentage of specifications which have been visited in repository 21:  100.0%
+
+Amount of time (in seconds): 30.459
+
+Mean percentage of specifications which have been visited: 100.0%
+Experiment: true
+
+Process finished with exit code 0

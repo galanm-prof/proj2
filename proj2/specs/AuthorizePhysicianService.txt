@@ -1,0 +1,18 @@
+ spec AuthorizePhysicianService
+ Vocabulary:
+    PatientOntology,
+    core-plus-office
+ Inputs:
+    PatientOntology:MedicalRecords AuthorizePhysician_PatientMedicalRecords,
+    PatientOntology:DateTime AuthorizePhysician_AuthorizationTimeInterval,
+    PatientOntology:PhysicianID AuthorizePhysician_PhysicianID
+ Outputs:
+    PatientOntology:Authorization AuthorizePhysician_PhysicianAuthorization,
+    PatientOntology:DateTime ContactEMA_AmbulanceArrivalTime,
+    PatientOntology:Acknowledgement AcceptCostAndHealingPlan_CostAndHealingPlanAcceptanceAnswer
+ Precondition :
+    AuthorizePhysician_PhysicianID belongs Authorized
+ Effect:
+    AcceptCostAndHealingPlan_CostAndHealingPlanAcceptanceAnswer belongs isForConsultingMedicalRecords value AuthorizePhysician_PatientMedicalRecords,
+    AuthorizePhysician_PhysicianAuthorization belongs isForConsultingMedicalRecords value AuthorizePhysician_PatientMedicalRecords,
+    AuthorizePhysician_PhysicianID belongs isAuthorizedConsultMedicalRecords value AuthorizePhysician_PhysicianAuthorization

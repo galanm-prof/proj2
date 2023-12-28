@@ -1,0 +1,20 @@
+ spec GetMedicalFlightAccountService
+ Vocabulary:
+    MedicalFlightCompanyOntology,
+    Mid-level-ontology,
+    ontosem,
+    core-plus-office
+ Inputs:
+    MedicalFlightCompanyOntology:DateTime GetMedicalFlightAccount_CustomerCreditCardExpDate,
+    MedicalFlightCompanyOntology:Address GetMedicalFlightAccount_CustomerAddress,
+    MedicalFlightCompanyOntology:PersonName GetMedicalFlightAccount_CustomerName,
+    MedicalFlightCompanyOntology:AccountPassword GetMedicalFlightAccount_CustomerDesiredPassword,
+    MedicalFlightCompanyOntology:AccountName GetMedicalFlightAccount_CustomerDesiredAccountName,
+    MedicalFlightCompanyOntology:CreditCardNumber GetMedicalFlightAccount_CustomerCreditCardNumber
+ Outputs:
+    MedicalFlightCompanyOntology:Account GetMedicalFlightAccount_Account
+ Precondition :
+    GetMedicalFlightAccount_CustomerCreditCardNumber belongs Accepted
+ Effect:
+    GetMedicalFlightAccount_Account belongs accountHolder some (Person_hasName value GetMedicalFlightAccount_CustomerName),
+    GetMedicalFlightAccount_Account belongs Create

@@ -1,0 +1,12 @@
+ spec BOOK__SERVICE
+ Vocabulary:
+    books,
+    ShoppingCart,
+    ontosem
+ Inputs:
+    books:Book _BOOK
+ Outputs:
+ Precondition :
+    _BOOK belongs be-available
+ Effect:
+    _BOOK belongs ShoppingCartRequestItems

@@ -1,0 +1,20 @@
+ spec GetNonMedicalTransportAccountService
+ Vocabulary:
+    NonMedicalTransportCompanyOntology,
+    Mid-level-ontology,
+    ontosem,
+    core-plus-office
+ Inputs:
+    NonMedicalTransportCompanyOntology:Address GetNonMedicalTransportAccount_CustomerAddress,
+    NonMedicalTransportCompanyOntology:DateTime GetNonMedicalTransportAccount_CustomerCreditCardExpDate,
+    NonMedicalTransportCompanyOntology:PersonName GetNonMedicalTransportAccount_CustomerName,
+    NonMedicalTransportCompanyOntology:AccountPassword GetNonMedicalTransportAccount_CustomerDesiredPassword,
+    NonMedicalTransportCompanyOntology:CreditCardNumber GetNonMedicalTransportAccount_CustomerCreditCardNumber,
+    NonMedicalTransportCompanyOntology:AccountName GetNonMedicalTransportAccount_CustomerDesiredAccountName
+ Outputs:
+    NonMedicalTransportCompanyOntology:Account GetNonMedicalTransportAccount_Account
+ Precondition :
+    GetNonMedicalTransportAccount_CustomerCreditCardNumber belongs Accepted
+ Effect:
+    GetNonMedicalTransportAccount_Account belongs accountHolder some (Person_hasName value GetNonMedicalTransportAccount_CustomerName),
+    GetNonMedicalTransportAccount_Account belongs Create

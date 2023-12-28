@@ -1,0 +1,18 @@
+ spec CALCULATE_SUNRISE_SERVICE
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:Code _LICENSEKEY,
+    protonu:Date _DATE,
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Outputs:
+    geographydataset:Sunrise _SUNRISE
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _SUNRISE belongs sunriseDeterminatedBy value _DATE,
+    _SUNRISE belongs sunriseDeterminatedBy some (hasLatitude value _LATITUDE and hasLongitude value _LONGITUDE)

@@ -1,0 +1,15 @@
+ spec CITYSTATE_ZIPCODES_SERVICE1
+ Vocabulary:
+    core-plus-office,
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    geographydataset:Code _LICENSEKEY,
+    protonu:State _STATE
+ Outputs:
+    geographydataset:US5DigitZipCode _ZIPCODE
+ Precondition :
+    _LICENSEKEY belongs Authorized,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _ZIPCODE belongs identifiesObject value _CITY

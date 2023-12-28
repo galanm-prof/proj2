@@ -1,0 +1,19 @@
+ spec PERSONBOOKCREDITCARDACCOUNT_TAXEDFREEPRICE_SERVICE
+ Vocabulary:
+    Mid-level-ontology,
+    books,
+    concept,
+    core-plus-office,
+    ontosem
+ Inputs:
+    books:Book _BOOK,
+    books:Person _PERSON,
+    Mid-level-ontology:CreditCardAccount _CREDITCARDACCOUNT
+ Outputs:
+    concept:TaxFreePrice _TAXEDFREEPRICE
+ Precondition :
+    _CREDITCARDACCOUNT belongs Accepted,
+    _PERSON belongs Authorized,
+    _CREDITCARDACCOUNT belongs accountHolder value _PERSON
+ Effect:
+    _BOOK belongs hasPrice value _TAXEDFREEPRICE

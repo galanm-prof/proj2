@@ -1,0 +1,17 @@
+ spec ADDRESS_PLACE_SERVICE
+ Vocabulary:
+    geographydataset,
+    core-plus-office
+ Inputs:
+    geographydataset:Code _LICENSEKEY,
+    protonu:Address _ADDRESS
+ Outputs:
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE,
+    protont:Location _LOCATION
+ Precondition :
+    _LICENSEKEY belongs Authorized
+ Effect:
+    _ADDRESS belongs identifiesLocation value _LATITUDE,
+    _ADDRESS belongs identifiesLocation value _LONGITUDE,
+    _ADDRESS belongs identifiesLocation value _LOCATION

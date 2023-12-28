@@ -1,0 +1,20 @@
+ spec GetPatientMedicalRecordsService
+ Vocabulary:
+    HospitalPhysicianOntology,
+    core-plus-office
+ Inputs:
+    HospitalPhysicianOntology:AccountPassword GetPatientMedicalRecords_PhysicianPassword,
+    HospitalPhysicianOntology:Treatment UpdatePatientMedicalRecords_Treatment,
+    HospitalPhysicianOntology:HealthInsuranceNumber GetPatientMedicalRecords_PatientHealthInsuranceNumber,
+    HospitalPhysicianOntology:PhysicianID GetPatientMedicalRecords_PhysicianID,
+    HospitalPhysicianOntology:DateTime GetPatientMedicalRecords_AuthorizationEndTime,
+    HospitalPhysicianOntology:GpsPosition PatientTransport_PatientGpsPosition
+ Outputs:
+    HospitalPhysicianOntology:MedicalRecords GetPatientMedicalRecords_AuthorizedMedicalRecords,
+    HospitalPhysicianOntology:Acknowledgement UpdatePatientMedicalRecords_Acknowledgement
+ Precondition :
+    GetPatientMedicalRecords_PhysicianID belongs Authorized
+ Effect:
+    UpdatePatientMedicalRecords_Acknowledgement belongs isForUpdatingMedicalRecords value GetPatientMedicalRecords_AuthorizedMedicalRecords,
+    UpdatePatientMedicalRecords_Acknowledgement belongs has_AuthorizationEndTime value GetPatientMedicalRecords_AuthorizationEndTime,
+    Patient_hasHealthInsuranceNumber value GetPatientMedicalRecords_PatientHealthInsuranceNumber equivalentTo Patient_hasMedicalRecords value GetPatientMedicalRecords_AuthorizedMedicalRecords

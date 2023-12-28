@@ -1,0 +1,14 @@
+ spec BOOK_RECOMMENDEDPRICE_SERVICE
+ Vocabulary:
+    books,
+    concept,
+    core-plus-office
+ Inputs:
+    books:Book _BOOK,
+    books:User _USER
+ Outputs:
+    concept:RecommendedPrice _RECOMMENDEDPRICE
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _BOOK belongs hasPrice value _RECOMMENDEDPRICE

@@ -1,0 +1,18 @@
+ spec PERSONBOOKLIABILITYACCOUNT__SERVICE
+ Vocabulary:
+    Mid-level-ontology,
+    books,
+    ontosem,
+    core-plus-office,
+    ShoppingCart
+ Inputs:
+    books:Book _BOOK,
+    books:Person _PERSON,
+    Mid-level-ontology:LiabilityAccount _LIABILITYACCOUNT
+ Outputs:
+ Precondition :
+    _LIABILITYACCOUNT belongs Accepted,
+    _PERSON belongs Authorized,
+    _LIABILITYACCOUNT belongs accountHolder value _PERSON
+ Effect:
+    _BOOK belongs ShoppingCartRequestItems

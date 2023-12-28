@@ -1,0 +1,14 @@
+ spec FANTANSYNOVELUSER_PRICE_SERVICE
+ Vocabulary:
+    core-plus-office,
+    books,
+    concept
+ Inputs:
+    books:User _USER,
+    books:FantansyNovel _FANTANSYNOVEL
+ Outputs:
+    concept:Price _PRICE
+ Precondition :
+    _USER belongs Authorized
+ Effect:
+    _FANTANSYNOVEL belongs hasLendingPrice value _PRICE

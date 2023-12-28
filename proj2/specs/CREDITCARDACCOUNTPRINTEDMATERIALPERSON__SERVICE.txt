@@ -1,0 +1,18 @@
+ spec CREDITCARDACCOUNTPRINTEDMATERIALPERSON__SERVICE
+ Vocabulary:
+    books,
+    Mid-level-ontology,
+    ontosem,
+    core-plus-office,
+    ShoppingCart
+ Inputs:
+    books:Person _PERSON,
+    books:PrintedMaterial _PRINTEDMATERIAL,
+    Mid-level-ontology:CreditCardAccount _CREDITCARDACCOUNT
+ Outputs:
+ Precondition :
+    _CREDITCARDACCOUNT belongs Accepted,
+    _PERSON belongs Authorized,
+    _CREDITCARDACCOUNT belongs accountHolder value _PERSON
+ Effect:
+    _PRINTEDMATERIAL belongs ShoppingCartRequestItems

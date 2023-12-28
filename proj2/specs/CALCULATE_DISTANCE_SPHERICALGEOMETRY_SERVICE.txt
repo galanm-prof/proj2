@@ -1,0 +1,23 @@
+ spec CALCULATE_DISTANCE_SPHERICALGEOMETRY_SERVICE
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    protont:latitude _LATITUDE1,
+    protont:latitude _LATITUDE2,
+    protont:longitude _LONGITUDE1,
+    protont:longitude _LONGITUDE2
+ Outputs:
+    geographydataset:GeographicDistance _DISTANCE
+ Precondition :
+    _LONGITUDE1 belongs not(equal value _LONGITUDE2)
+ Effect:
+    _DISTANCE belongs hasMeasurementUnit some GeographicDistanceKilometerLengthUnit,
+    _DISTANCE belongs hasLocation some (hasLatitude value _LATITUDE2 and hasLongitude value _LONGITUDE2),
+    _DISTANCE belongs hasLocation some (hasLatitude value _LATITUDE1 and hasLongitude value _LONGITUDE1)
+ Precondition :
+    _LATITUDE1 belongs not(equal value _LATITUDE2)
+ Effect:
+    _DISTANCE belongs hasMeasurementUnit some GeographicDistanceKilometerLengthUnit,
+    _DISTANCE belongs hasLocation some (hasLatitude value _LATITUDE2 and hasLongitude value _LONGITUDE2),
+    _DISTANCE belongs hasLocation some (hasLatitude value _LATITUDE1 and hasLongitude value _LONGITUDE1)

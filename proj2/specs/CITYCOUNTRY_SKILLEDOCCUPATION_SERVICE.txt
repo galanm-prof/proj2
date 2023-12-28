@@ -1,0 +1,18 @@
+ spec CITYCOUNTRY_SKILLEDOCCUPATION_SERVICE
+ Vocabulary:
+    portal,
+    SUMO,
+    Mid-level-ontology,
+    protont
+ Inputs:
+    SUMO:City _CITY,
+    portal:Country _COUNTRY
+ Outputs:
+    Mid-level-ontology:SkilledOccupation _SKILLEDOCCUPATION
+ Precondition :
+    _CITY belongs locatedIn value _COUNTRY
+ Effect:
+    {_CITY} equivalentTo (hasSkilledOccupation value _SKILLEDOCCUPATION)
+ Precondition :
+ Effect:
+    {_COUNTRY} equivalentTo (hasSkilledOccupation value _SKILLEDOCCUPATION)

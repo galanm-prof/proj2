@@ -1,0 +1,14 @@
+ req CITYCOUNTRY_ACCOMMODATION_REQUEST
+ Vocabulary:
+    portal,
+    travel,
+    protont
+ Inputs:
+    travel:City _CITY,
+    portal:Country _COUNTRY
+ Outputs:
+    travel:Accommodation _ACCOMMODATION
+ Precondition :
+    _CITY belongs locatedIn value _COUNTRY
+ Effect:
+    {_CITY} equivalentTo (hasAccommodation value _ACCOMMODATION)

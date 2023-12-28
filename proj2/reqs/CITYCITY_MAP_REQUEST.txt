@@ -1,0 +1,13 @@
+ req CITYCITY_MAP_REQUEST
+ Vocabulary:
+    geographydataset,
+    SUMO
+ Inputs:
+    geographydataset:City _CITY2,
+    geographydataset:City _CITY1
+ Outputs:
+    geographydataset:Map _MAP
+ Precondition :
+    _CITY1 belongs not(equal value _CITY2)
+ Effect:
+    _MAP belongs representsInformation some (optimalrouteBegins value _CITY1 and optimalrouteEnds value _CITY2)

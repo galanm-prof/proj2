@@ -1,0 +1,13 @@
+ spec PERSONPRINTEDMATERIAL__SERVICE
+ Vocabulary:
+    books,
+    core-plus-office,
+    ShoppingCart
+ Inputs:
+    books:Person _PERSON,
+    books:PrintedMaterial _PRINTEDMATERIAL
+ Outputs:
+ Precondition :
+    _PERSON belongs Authorized
+ Effect:
+    _PRINTEDMATERIAL belongs ShoppingCartRequestItems

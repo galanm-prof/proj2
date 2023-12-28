@@ -1,0 +1,14 @@
+ req GEOGRAPHICAL-REGIONGEOGRAPHICAL-REGION_ICON_REQUEST
+ Vocabulary:
+    portal,
+    SUMO
+ Inputs:
+    portal:Geographical-Region _GEOGRAPHICAL-REGION1,
+    portal:Geographical-Region _GEOGRAPHICAL-REGION2
+ Outputs:
+    SUMO:Icon _ICON
+ Precondition :
+    _GEOGRAPHICAL-REGION1 belongs not(equal value _GEOGRAPHICAL-REGION2)
+ Effect:
+    _ICON belongs represents some (roadwayBetween value _GEOGRAPHICAL-REGION2),
+    _ICON belongs represents some (roadwayBetween value _GEOGRAPHICAL-REGION1)
