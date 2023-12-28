@@ -1,0 +1,11 @@
+ spec _DIAGNOSTICPROCESSREASONING_SERVICE
+ Vocabulary:
+    SUMO,
+    ontosem
+ Inputs:
+ Outputs:
+    SUMO:DiagnosticProcess _DIAGNOSTICPROCESS,
+    SUMO:Reasoning _REASONING
+ Precondition :
+ Effect:
+    _DIAGNOSTICPROCESS belongs contrast value _REASONING
