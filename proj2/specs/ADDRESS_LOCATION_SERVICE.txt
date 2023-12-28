@@ -1,0 +1,17 @@
+ spec ADDRESS_LOCATION_SERVICE
+ Vocabulary:
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    geographydataset:PostalCode _ZIPCODE,
+    protonu:Address _ADDRESS,
+    protonu:State _STATE
+ Outputs:
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _ZIPCODE belongs identifiesObject value _ADDRESS,
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _ADDRESS belongs locatedIn value _LONGITUDE,
+    _ADDRESS belongs locatedIn value _LATITUDE

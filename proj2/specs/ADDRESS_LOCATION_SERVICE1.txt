@@ -1,0 +1,18 @@
+ spec ADDRESS_LOCATION_SERVICE1
+ Vocabulary:
+    protont,
+    protonu,
+    geographydataset
+ Inputs:
+    protonu:City _CITY,
+    protonu:Address _ADDRESS,
+    protonu:State _STATE
+ Outputs:
+    protont:longitude _LONGITUDE,
+    protont:latitude _LATITUDE
+ Precondition :
+    _ADDRESS belongs identifiesLocation some {USA,Canada},
+    _CITY belongs locatedIn value _STATE
+ Effect:
+    _ADDRESS belongs locatedIn value _LATITUDE,
+    _ADDRESS belongs locatedIn value _LONGITUDE
